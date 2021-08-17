@@ -6,6 +6,7 @@ Memory Usage: 20 MB, less than 62.42% of Python3 online submissions for Contains
 """
 
 #check if the nums array contains duplicated number
+#O(1)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         return len(nums) > len(set(nums))
